@@ -1,11 +1,11 @@
 name    'tracywebtech-security-updates'
-version '0.1.0'
-source 'UNKNOWN'
+version '0.9.0'
+source 'https://github.com/TracyWebTech/puppet-security-updates'
 author 'tracywebtech'
 license 'Apache License, Version 2.0'
-summary 'UNKNOWN'
-description 'UNKNOWN'
-project_page 'UNKNOWN'
+summary 'Perform periodical system updates regarding security packages'
+description 'Perform periodical system updates regarding security packages'
+project_page 'https://github.com/TracyWebTech/puppet-security-updates'
 
 ## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency 'puppetlabs/stdlib', '>= 4.1.0'
