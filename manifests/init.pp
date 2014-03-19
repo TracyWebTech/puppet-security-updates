@@ -1,5 +1,5 @@
 
-class security-updates {
+class security_updates {
 
   case $osfamily {
     redhat: {
