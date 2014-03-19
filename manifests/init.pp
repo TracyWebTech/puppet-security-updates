@@ -12,7 +12,7 @@ class security_updates {
     }
 
     debian: {
-      ensure_packages(['unattended-upgrades'])
+      ensure_packages(['unattended-upgrades', 'update-notifier-common'])
 
       file_line { 'enable unattended-upgrades':
         path    => '/etc/apt/apt.conf.d/10periodic',
